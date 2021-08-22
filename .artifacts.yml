@@ -1,0 +1,11 @@
+version: v1
+
+bundle:
+  builds:
+  - filter: on-every-commit
+    config:
+      platform: nodejs
+      platform_version: '14'
+      exclude_paths: 
+        - cloudformation
+        - docs
